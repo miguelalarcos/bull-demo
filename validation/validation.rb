@@ -1,5 +1,5 @@
-$LOAD_PATH.unshift '../../bull-rb/validation'
-require_relative 'validation_core'
+#$LOAD_PATH.unshift '../../bull-rb/validation'
+require_relative 'validation/validation_core'
 
 class ValidateDemo
   include Validate
