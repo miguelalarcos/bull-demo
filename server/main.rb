@@ -1,7 +1,7 @@
 #$LOAD_PATH.unshift '../../bull-rb/server'
 require 'server/server'
 require 'server/bcaptcha'
-require '../validation/validation'
+require_relative '../validation/validation'
 
 class AppController < BullServerController
 
